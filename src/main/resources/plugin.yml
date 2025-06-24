@@ -1,0 +1,21 @@
+name: SwayCoreAC
+version: '1.0-SNAPSHOT'
+main: com.swaycore.swayCoreAC.SwayCoreAC
+api-version: '1.21'
+author: Swaycore
+depend:
+  - ProtocolLib
+commands:
+  swaygui:
+    description: Open SwayCore GUI
+    permission: swaycore.gui
+permissions:
+    swaycore.gui:
+        description: Allows the player to open the SwayCore GUI
+        default: op
+    swaycore.bypass:
+        description: Allows the player to bypass SwayCore checks
+        default: op
+    swaycore.alerts:
+        description: Allows the player to receive notifications from SwayCore
+        default: op
